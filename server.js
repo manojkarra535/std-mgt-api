@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Home API
 app.get("/", (req, res) => {
-  res.send("Node.js API is running!");
+  res.send("Welcome to the Student Management API");
 });
 
 // Get users
